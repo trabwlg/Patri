@@ -7,9 +7,5 @@ import org.springframework.stereotype.Repository;
 import java.util.function.LongFunction;
 
 @Repository
-/*
-public class PatrimonioRepository {
-}
-*/
 public interface PatrimonioRepository extends JpaRepository<Patrimonio,Long> {
 }
